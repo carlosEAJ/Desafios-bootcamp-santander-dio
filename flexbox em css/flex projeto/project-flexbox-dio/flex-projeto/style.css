@@ -16,6 +16,7 @@ ul li a{
 
 div img{
     display: block;
+    width: 100%;
     
 }
 
@@ -94,11 +95,12 @@ header .menu{
     color: #122a57;
     display: flex;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 #quem-somos h2::before{
     content: "";
-    height: 50px;
+    height: 35px;
     width: 5px;
     margin-right: 5px;
     background-color: #122a57;
@@ -108,9 +110,10 @@ header .menu{
 #quem-somos p{
     margin-bottom: 10px;
     width: 90%;
+    text-align: left;
 }
 #quem-somos img{
-    min-width: 500px;
+    min-width: 420px;
 }
 
 .container-externo{
@@ -133,14 +136,15 @@ header .menu{
 .list-servicos{
     display: flex;
     justify-content: space-between;
+    
 }
 
-.list-servicos .item-servicos{
+.list-servicos .item-servico{
     text-align: center;
 }
 
 .item-servico a{
-    width: 120px;
+    width: 220px;
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
     height: 50px;
@@ -155,7 +159,7 @@ header .menu{
 }
 
 .item-servico p{
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     color: #fff;
     margin-top: 20px;
@@ -200,6 +204,7 @@ header .menu{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    text-align: center;
 }
 
 .item-plano h3::after{
@@ -224,7 +229,7 @@ header .menu{
     align-items: center;
 }
 
-.item-planoul li::before{
+.item-plano ul li::before{
     content: "";
     width: 10px;
     height: 10px;
