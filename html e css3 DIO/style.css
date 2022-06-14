@@ -7,10 +7,13 @@ body{
 
 
 .photo{
-    border-radius: 100%;
-    max-width: 80px;
-    margin: center;
-    
+    border-radius: 60%;
+    max-width: 200px;
+    margin: center;  
+    border: 1px solid black;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #title, .subtitle, .post_title {
@@ -19,6 +22,7 @@ body{
     font-style: italic;
     margin: 0;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 #title{
