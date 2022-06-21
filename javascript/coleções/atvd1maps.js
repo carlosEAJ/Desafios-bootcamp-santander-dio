@@ -1,6 +1,7 @@
 function getAdmins(mapss){
     let list = []; // let criada para lista e depois verificar os cargos dentro do if
    for(adm of mapss){
+    console.log(adm)
     if('admin'=== adm[1]){  // (colchetes verifica) verificar se os cargos (indice 1) sao iguais a admin
         list.push(adm[0]); // se forem iguais adicionar na lista nomes que tem o cargo admin
     }
