@@ -1,5 +1,8 @@
 function getAdmins(mapss){
     let list = []; // let criada para lista e depois verificar os cargos dentro do if
+    /* for...of percorre objetos iterativos, arrays e outros exemplo: for (variavel of iteravel){
+        declaracao
+    }*/
    for(adm of mapss){
     console.log(adm)
     if('admin'=== adm[1]){  // (colchetes verifica) verificar se os cargos (indice 1) sao iguais a admin
@@ -9,6 +12,7 @@ function getAdmins(mapss){
    return list;
 //funcoes atribuidas com nomes genericos, qualquer nome pode ser atribuido
 }
+// metodo map sempre adiciona uma chave e um valor pro exemplo mympa.set('chave','valor')
 const myMap = new Map();
 myMap.set('carlos', 'admin');
 myMap.set('joao', 'usuario');
