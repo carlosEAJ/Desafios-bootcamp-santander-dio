@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title-text">
+            <p class="title">Calcule o ICMS</p>
+            <P>Site feito com o intuito de calcular o ICMS de forma prática.</P>
+        </div>
+        <div class="components">
+            <div class="itens-calc">
+                <p class="calc-title">Calculo Simples</p>
+                <input type="number" id="porcentagem-aliquota" placeholder="Insira aqui a aliquota">
+                <input type="number" id="numero-base" placeholder="Insira aqui a base (frete)">
+                <div class="resultado-box">
+                    <p>Total:</p>
+                    <p class="resultado"id="resultado-calc-simples"></p>
+                </div>
+                <div class="btn-box">
+                <button id="btn-calc-simples" >Calcule aqui!</button>
+                <button id="btn-reset-calc-simples">Limpar calculo!</button>
+                </div>
+            </div>
+            <div class="itens-calc">  
+                <p class="calc-title">Calculo Inverso</p>
+                <input type="number" name="baseInversa" id="numero-base-inversa" placeholder="Insira aqui % do ICMS">
+                <input type="number" name="valorDoFrete" id="valor-frete" placeholder="Insira aqui o valor do frete">
+                <div class="resultado-box">
+                    <p>Total:</p>
+                    <p class="resultado" id="resultado-calc-inverso"></p>
+                </div>
+                <div class="btn-box">
+                <button id="btn-calc-inverso">Calcule aqui!</button>
+                <button id="btn-reset-calc-inverso">Limpar calculo!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/script/js/script.js"></script>
+</body>
+</html>
